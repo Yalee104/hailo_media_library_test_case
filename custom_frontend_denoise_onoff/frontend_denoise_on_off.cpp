@@ -8,7 +8,7 @@
 #include <mutex>
 
 
-#define ENABLE_STREAMING    1   //Enable streaming, set to 0 to disable streaming and just save the encoded to file
+#define ENABLE_STREAMING    0   //Enable streaming, set to 0 to disable streaming and just save the encoded to file
 #define USE_RTSP_STREAMING  1   //Enable RTSP streaming, set to 0 to use UDP streaming
 
 #define FRONTEND_CONFIG_DENOISE_ON_FILE "frontend_config_denoise_on.json"
